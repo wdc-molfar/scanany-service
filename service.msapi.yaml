@@ -1,0 +1,14 @@
+msapi: 1.0.1
+
+metadata: 
+    title: Scanany scraper. @molfar Service.
+    id: "@molfar/service/scanany"
+    
+
+service:
+
+    config: 
+        amqp:
+            url:
+                type: string
+                format: uri-reference
